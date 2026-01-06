@@ -5,4 +5,5 @@ app.get('/',(req,res)=>{
     console.log("HI~")
 })
 
-app.listen(3001)
+app.listen(3001, "0.0.0.0")
+// http://0.0.0.0:3001
